@@ -8,8 +8,8 @@ import { useForm } from 'react-hook-form';
 import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 const SignIn = () => {
-    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle (auth)
-    const { register, formState: { errors }, handleSubmit } = useForm ();
+    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
+    const { register, formState: { errors }, handleSubmit } = useForm();
     const [
         signInWithEmailAndPassword,
         user,
@@ -34,16 +34,14 @@ const SignIn = () => {
         navigate('/home');
     }
 
-    
-    if(error || gError){
-        signInError= <p className='text-red-500'><small>{error?.message || gError?.message }</small></p>
+
+    if (error || gError) {
+        signInError = <p className='text-red-500'><small>{error?.message || gError?.message}</small></p>
     }
 
     const onSubmit = data => {
         signInWithEmailAndPassword(data.email, data.password);
     }
-
-
 
     return (
         <div>
@@ -53,24 +51,80 @@ const SignIn = () => {
                 <div className="hero-content text-center text-neutral-content">
                     <div className="px-5">
                         <h1 className="mb-5 text-4xl font-bold  text-[#E8F0FE]">Sign In</h1>
-                        {/* <p className="text-justify tracking-wide mb-5 text-xl md:text-2xl lg:text-3x"><span className='text-4xl font-bold'>B</span>angladesh is a beautiful country with some beautiful tourist places.
-                            Here foreign peoples also come to visit these places.
-                            Our motive is to make tourism easier for tourists all over the world. We want to give them a better travel experience through our Travel & Tourism web App <span className='text-3xl font-bold px-2'>(Ghuraghuri)</span>
-                        </p> */}
-                        
-                        <form onSubmit={handleSubmit(onSubmit)} action="" className='card bg-[#E8F0FE] p-8 '>
-                            <input className='w-full mt-2 py-4 border bg-[#E8F0FE]  border-solid outline-none border-black pl-3 bg-transparent text-black ' placeholder='Enter Email ' type="email " name="email" id="" /><br />
-                            <input className='w-full   mb-4 py-4 border bg-[#E8F0FE]  border-solid outline-none border-black pl-3 bg-transparent text-black ' placeholder='Enter Password ' type="password " name="password" id="" />
-                            {/* <button className='btn w-full text-[#E8F0FE]'>Sign In</button> */}
-                            <input className='btn w-full text-[#E8F0FE]' type="submit" value="Sign In" />
-                            <input  onClick={() => signInWithGoogle()} className='btn bg-green-600 my-4 w-full text-[#E8F0FE]' type="submit" value="Sign In With Google" />
-                            <p className='text-black'>If you don't have an account? please <Link className="cursor-pointer underline text-blue-600 " to="/signUp">sign Up</Link></p>
-                        </form>
-                    </div> 
+
+                        <div className="card p-4 bg-[#E8F0FE] text-black shadow-xl">
+                            <form onSubmit={handleSubmit(onSubmit)}>
+
+                                <div className="form-control w-full max-w-xs">
+                                    <label className="label">
+                                        <span className="label-text">Email</span>
+                                    </label>
+                                    <input
+                                        type="email"
+                                        placeholder="Enter Email"
+                                        className="input input-bordered w-full max-w-xs"
+                                        {...register("email", {
+                                            required: {
+                                                value: true,
+                                                message: 'Email is Required'
+                                            },
+                                            pattern: {
+                                                value: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
+                                                message: 'Provide a valid Email'
+                                            }
+                                        })}
+                                    />
+                                    <label className="label">
+                                        {errors.email?.type === 'required' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
+                                        {errors.email?.type === 'pattern' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
+                                    </label>
+                                </div>
+
+
+
+
+                                <div className="form-control w-full max-w-xs">
+                                    <label className="label">
+                                        <span className="label-text">password</span>
+                                    </label>
+                                    <input
+                                        type="password"
+                                        placeholder="Enter password"
+                                        className="input input-bordered w-full max-w-xs"
+                                        {...register("password", {
+                                            required: {
+                                                value: true,
+                                                message: 'Password is Required'
+                                            },
+                                            minLength: {
+                                                value: 6,
+                                                message: 'Must be 6 characters or longer'
+                                            }
+                                        })}
+                                    />
+                                    <label className="label">
+                                        {errors.password?.type === 'required' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
+                                        {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
+                                    </label>
+                                </div>
+
+
+
+                                {signInError}
+                                <input className='btn w-full max-w-xs text-white' type="submit" value="Sign In" />
+                            </form>
+                            <p><small>If you don't have an account? please<Link className='text-primary' to="/signUp">SignUp</Link></small></p>
+                            <div className="divider">or</div>
+                            <button
+                                onClick={() => signInWithGoogle()}
+                                className="btn btn-outline"
+                            >SIGN IN WITH GOOGLE</button>
+                        </div>
+                    </div>
                 </div>
-            </div>            
+            </div>
             <Footer></Footer>
-            
+
         </div>
     );
 };
