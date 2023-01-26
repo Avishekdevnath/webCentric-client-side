@@ -82,24 +82,18 @@ const SignUp = () => {
         navigate('/home');
         // toast('অ্যাকাউন্ট তৈরি করা হয়েছে');
 
-        // const googleLogin = await signInWithGoogle(data.email);
-        // await updateProfile({ displayName: data.name });
-        // console.log('update done');
+        const googleLogin = await signInWithGoogle(data.email);
+        await updateProfile({ displayName: data.name });
+        console.log('update done');
 
     }
 
-    // const [loginData, setLoginData] = useState({});
-    // const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
-    // const { register, formState: { errors }, handleSubmit } = useForm();
-    // const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth);
-    // const [updateProfile, updating, updateError] = useUpdateProfile(auth);
-    // // const navigate = useNavigate();
-    // let signInError;
+ 
 
     // console.log("In sign up page");
-    // if (error || gError || updateError) {
-    //     signInError = <p className='text-red-500'><small>{error?.message || gError?.message || updateError?.message}</small></p>
-    // }
+    if (error || gError || updateError) {
+        signInError = <p className='text-red-500'><small>{error?.message || gError?.message || updateError?.message}</small></p>
+    }
 
     // if (user || gUser) {
     //     console.log(user);
@@ -110,62 +104,7 @@ const SignUp = () => {
     // // }
 
 
-    // const onSubmit = async data => {
-    //     // console.log(data);        
-    //     // console.log(register);
-    //     await createUserWithEmailAndPassword(data.email, data.password);
-
-
-    //     // const userEmail = data.email;
-    //     // const userPassword = data.password;
-
-    //     // console.log(user)
-    //     const userObject = {
-
-    //         email: data.email,
-    //         name: data.name,
-    //         password: data.password,
-    //         role: 'user'
-    //     }
-
-    //     console.log(userObject);
-    //     setLoginData(userObject);
-
-    //     // const field = e.target.name;
-    //     // const value = e.target.value;
-    //     // const newLoginData = { ...loginData };
-    //     // newLoginData[field] = value;
-    //     // setLoginData(newLoginData);
-
-
-
-
-    //     fetch('http://localhost:5000/user', {
-    //         method: 'POST',
-    //         headers: {
-    //             'content-type': 'application/json'
-    //         },
-    //         body: JSON.stringify(userObject)
-    //     })
-
-
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             if (data.insertedId) {
-    //                 console.log("form submitted successfully")
-    //             }
-    //         })
-    //     // e.preventDefault();
-
-    //     // navigate('/home');
-    //     // toast('অ্যাকাউন্ট তৈরি করা হয়েছে');
-
-    //     // const googleLogin = await signInWithGoogle(data.email);
-    //     // await updateProfile({ displayName: data.name });
-    //     // console.log('update done');
-
-    // }
-
+    
     return (
         <div>
             <Navbar></Navbar>
@@ -176,7 +115,7 @@ const SignUp = () => {
                     <div className="px-5 pt-24 mb-10">
                         <h1 className="mb-5  text-5xl text-[#E8F0FE] font-bold">Sign Up</h1>
 
-                        <div className="card bg-[#E8F0FE] p-4 text-black">
+                        <div className="card lg:w-96 bg-[#E8F0FE] p-4 text-black">
                             <form onSubmit={handleSubmit(onSubmit)}  >
                                 <div className="form-control w-full max-w-xs">
                                     <label className="label">
