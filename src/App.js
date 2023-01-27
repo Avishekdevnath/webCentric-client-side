@@ -19,6 +19,8 @@ import AllHotelBookingDetails from './Component/Dashboard/AllHotelBookingDetails
 import AllReview from './Component/Dashboard/AllReview';
 import AddHotel from './Component/Dashboard/AddHotel';
 import BookedHotel from './Component/Dashboard/BookedHotel';
+import Registration from './Component/Home/Registration';
+import SpecialTours from './Component/Dashboard/SpecialTours';
 
 function App() {
   
@@ -34,6 +36,7 @@ function App() {
     {path:"services" , element: <Services></Services>},
     {path:"signUp" , element: <SignUp></SignUp>},
     {path:"signIn" , element: <SignIn></SignIn>},
+    {path:"registration" , element: <Registration></Registration>},
     {
       path:"dashboard" , 
       element: <Dashboard></Dashboard>,
@@ -56,6 +59,7 @@ function App() {
       
         /* here routes for normal user or tourist */
         {path:"/dashboard/BookedHotel" , element: <BookedHotel></BookedHotel>},
+        {path:"/dashboard/specialTours" , element: <SpecialTours></SpecialTours>},
         
       ]
     },

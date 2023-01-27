@@ -1,6 +1,9 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase';
 
 const Profile = () => {
+    const [user] = useAuthState(auth);
     return (
         <div>
             <div class="card bg-[#E8F0FE] text-black w-96 md:w-[700px]  lg:w-[700px] text-xl shadow-xl">
@@ -19,8 +22,8 @@ const Profile = () => {
                         </div>
 
                         <div>
-                            <p>GhuraGhuri </p>
-                            <p>abcd@gmail.com</p>
+                            <p>{user.displayName}</p>
+                            <p>{user.email}</p>
                             <p>N/A</p>
                             <p>N/A</p>
                         </div>
