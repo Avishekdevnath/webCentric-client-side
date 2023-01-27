@@ -3,12 +3,17 @@ import { Link } from 'react-router-dom';
 import Footer from '../Shared/Footer';
 import Navbar from '../Shared/Navbar';
 import image from '../../asset/Images/search.png'
+import useData from '../../hooks/useData';
 const Services = () => {
+
+    const[data,setData] = useData();
+    console.log(data[0]);
+
     return (
         <div>
             <Navbar></Navbar>
 
-{/* lg:h-[600px] md:h-[450px] h-[300px] */}
+            {/* lg:h-[600px] md:h-[450px] h-[300px] */}
             <div className="hero  min-h-screen mb-20 " style={{ backgroundImage: `url("https://i.ibb.co/hR2nBFx/decoration-blue-sky-white-clouds-parks-space-landscape-mountains.jpg")` }}>
                 <div className="hero-overlay bg-opacity-0"></div>
                 <div className="hero-content text-center text-neutral-content">
@@ -17,7 +22,7 @@ const Services = () => {
 
                         {/* Searching option design start here  */}
 
-                        <div class="card text-black card-compact  bg-[#E8F0FE] shadow-xl">
+                        <div class="card mt-24 text-black card-compact  bg-[#E8F0FE] shadow-xl">
                             <div class="card-body">
 
                                 <div className='py-8 grid lg:grid-cols-3 md:grid-cols-3 grid-col-1 gap-3'>
