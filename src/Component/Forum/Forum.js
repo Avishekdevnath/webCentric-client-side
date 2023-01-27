@@ -14,20 +14,11 @@ const Forum = () => {
     // console.log(user.email);
 
 
-    // const [messages, setMessages] = useState([]);
-   
-    // useEffect(() => {
-    //     fetch(`http://localhost:5000/messages`)
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             setMessages(data)
-    //         })
-    // }, [messages])
-    console.log(messages);
     const handleSubmit = (e) => {
         
         const comment = e.target.comment.value;
-        const message = { comment,people };
+        const peopleNew =  user? user.email : "unknown person" ;
+        const message = { comment, peopleNew };
         // console.log(comment);
 
         const url = `http://localhost:5000/messages`;
@@ -79,13 +70,13 @@ const Forum = () => {
 
                     
                     <div class="chat chat-start">
-                    {/* <div class="chat-image avatar">
+                    <div class="chat-image avatar">
                         <div class="w-10 rounded-full">
-                            <img alt='' src="https://placeimg.com/192/192/people" />
+                            <img alt='' src="https://i.ibb.co/WsLP2Fx/user.jpg" />
                         </div>
-                    </div> */}
+                    </div>
                     <div className='user-comment chat-bubble'>
-                        <p><b className='break-all'>{people}</b></p>
+                        <p><b className='break-all'>{message.people}</b></p>
                         <p>{message.comment}</p>
                     </div>
                 </div>

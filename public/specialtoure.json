@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "place": "Saint Martin",
+        "image": "https://travelvibe.net/wp-content/uploads/2021/03/Most-attractive-tourist-attraction-of-bangladesh-saint-martin-e1615271792566.jpg",
+        "Hotels": [
+            {
+                "id": 1,
+                "image": "",
+                "Hotel_name": "Aronnok & Lakeshore Holiday Resort",
+                "image": "https://www.lrbtravelteam.com/wp-content/uploads/2020/10/Aronnok-Holiday-Resort.png",
+                "Price_Range": "1000 - 5000",
+                "Rooms": 30,
+                "Rooms_Available": 20,
+                "Address": "Ragamati cantenment,Ragamati Bangladesh",
+                "Get_Direction": "https://www.google.com/maps/dir/Aronnak+Holiday+Resort,+M594%2BC6J,+N+106/Rangamati/@22.6609781,92.1584181,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3752b591cfc4f893:0x45dd270ab2dd8fe7!2m2!1d92.1555155!2d22.6685972!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
+            }
+        ],
+        "Transports": [
+            {
+                "id": 1,
+                "image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
+                "Name": "Shamoli Nr",
+                "Ac_Price": "1800Tk",
+                "NonAc_Price": "850Tk",
+                "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
+                "Total_Seat": "50",
+                "phone": "0188177111",
+                "Available_Seat": "10",
+                "Avaiable_Time": [
+                    "1/02/2023 : 5–10PM",
+                    "1/02/2023:5–10PM",
+                    "1/02/2023: 5–10PM"
+                ]
+            },
+            {},
+            {}
+        ],
+        "Police_Stations": [
+            {
+                "Name": "Kotwali police station",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUsDSYsXSFe6JFQeQMyR2SaqqBcL-KumrY6jyNtwnfAQgDiaYxLPB7l4EH3mPQO9R83Q&usqp=CAU",
+                "Phone": "035162060",
+                "Address": "Rangamati,Bangladesh",
+                "Get Direction": "https://www.google.com/maps/dir//Rangamati/@22.6533046,92.1088177,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
+            },
+            {}
+        ],
+        "Hospitals": [
+            {
+                "Name": " Rangamati Government Hospital",
+                "image": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/05/06/ranga_pic.jpg",
+                "Phone": "01930541300",
+                "Address": "Rangamati",
+                "Get_Direction": "https://www.google.com/maps/search/Rangamati+Government+Hospital+address/@23.4445999,91.6813873,9z/data=!3m1!4b1"
+            },
+            {}
+        ],
+        "Torist_Spots": [
+            {
+                "Name": "Powel Park",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkl6He0mx_xQy1TbMlGU5nBa-3VfoEuLndCDsM3ajtG3cXw-cJNZYqp211K8SCfphY3Y&usqp=CAU",
+                "Address": "Rangamati",
+                "Get_Direction": "https://www.google.com/maps/place/Polwel+Park/@22.6411599,92.1977162,17z/data=!3m1!4b1!4m5!3m4!1s0x3752b58c9bcbfe81:0x13a4de90953f35cb!8m2!3d22.6411599!4d92.199904",
+                "Open_Time": "9Am",
+                "Close_Time": "9pm"
+            },
+            {}
+        ]
+    }
+]
