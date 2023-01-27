@@ -9,7 +9,13 @@ import useSpecialTourDetails from '../../hooks/useSpecialToursDetails';
 const SpecialTours = () => {
 
     const [user] = useAuthState(auth);
+    const email = user?.email;
     const [specialTours, setSpecialTours] = useSpecialTourDetails()
+    const [allOrders, setAllOrders] = useState([]);
+    console.log(specialTours);
+
+    // const selectedOrders = specialTours.map(e => { console.log(e) })
+
     // console.log(specialTours)
     return (
 
@@ -29,30 +35,30 @@ const SpecialTours = () => {
                 <tbody>
                     {
 
-                        specialTours?.map((data, index) => {
+specialTours?.map((data, index) => {
                             // console.log(data);
                             const { name, email, address } = data;
                             // console.log(name, address);
                             return (
-                                    <tr className='text-black'>
-                                        <td>{index + 1} </td>
+                                <tr className='text-black'>
+                                    <td>{index + 1} </td>
 
-                                        <td>
-                                            <div class="flex items-center space-x-3">
-                                                <div class="avatar">
-                                                    <div class="mask mask-squircle w-12 h-12">
-                                                        <img src={user?.photoURL} alt="" />
-                                                    </div>
+                                    <td>
+                                        <div class="flex items-center space-x-3">
+                                            <div class="avatar">
+                                                <div class="mask mask-squircle w-12 h-12">
+                                                    <img src={user?.photoURL} alt="" />
                                                 </div>
                                             </div>
-                                        </td>
+                                        </div>
+                                    </td>
 
-                                        <td>{name}</td>
-                                        <td>{email}</td>
-                                        <td>{address}</td>
+                                    <td>{name}</td>
+                                    <td>{email}</td>
+                                    <td>{address}</td>
 
-                                        <th><button class="btn btn-sm  bg-green-100 text-black hover:text-white">Pending</button></th>
-                                    </tr>
+                                    <th><button class="btn btn-sm  bg-green-100 text-black hover:text-white">Pending</button></th>
+                                </tr>
                             )
 
                         }
