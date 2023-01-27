@@ -3,29 +3,31 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase';
+import useForum from '../../hooks/useForum';
 import Footer from '../Shared/Footer';
 import Navbar from '../Shared/Navbar';
 
 const Forum = () => {
-
+    const [messages, setMessages] = useForum([]);
     const [user] = useAuthState(auth);
-    // console.log(user);
+    const people = user?.email;
+    // console.log(user.email);
 
 
-    const [messages, setMessages] = useState([]);
+    // const [messages, setMessages] = useState([]);
    
-    useEffect(() => {
-        fetch(`http://localhost:5000/messages`)
-            .then(res => res.json())
-            .then(data => {
-                setMessages(data)
-            })
-    })
+    // useEffect(() => {
+    //     fetch(`http://localhost:5000/messages`)
+    //         .then(res => res.json())
+    //         .then(data => {
+    //             setMessages(data)
+    //         })
+    // }, [messages])
     console.log(messages);
     const handleSubmit = (e) => {
-        e.preventDefault();
+        
         const comment = e.target.comment.value;
-        const message = { comment };
+        const message = { comment,people };
         // console.log(comment);
 
         const url = `http://localhost:5000/messages`;
@@ -41,6 +43,10 @@ const Forum = () => {
             .then(data => {
                 console.log(data)
             })
+            e.target.comment.value = ''
+
+            e.preventDefault();
+            
 
     }
 
@@ -57,18 +63,35 @@ const Forum = () => {
 
                 {/* user comment  */}
                 <div class="chat chat-start">
-                    <div class="chat-image avatar">
+                    {/* <div class="chat-image avatar">
                         <div class="w-10 rounded-full">
                             <img alt='' src="https://placeimg.com/192/192/people" />
                         </div>
-                    </div>
+                    </div> */}
                     <div className='user-comment chat-bubble'>
                         <p><b>Niloy</b></p>
                         <p>It was said that you would, destroy the Sith, not join them.</p>
                     </div>
                 </div>
 
+            {
+                messages?.map( message => 
 
+                    
+                    <div class="chat chat-start">
+                    {/* <div class="chat-image avatar">
+                        <div class="w-10 rounded-full">
+                            <img alt='' src="https://placeimg.com/192/192/people" />
+                        </div>
+                    </div> */}
+                    <div className='user-comment chat-bubble'>
+                        <p><b className='break-all'>{people}</b></p>
+                        <p>{message.comment}</p>
+                    </div>
+                </div>
+
+                )
+            }
 
 
             </div>

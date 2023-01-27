@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 // import Navbar from './Component/Shared/Navbar';
 import Contact from './Component/Contact/Contact';

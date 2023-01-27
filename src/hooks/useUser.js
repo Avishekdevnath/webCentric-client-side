@@ -3,7 +3,7 @@ import { signOut } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { useAuthState } from 'react-firebase-hooks/auth';
 // import { useAuthState } from "react-firebase-hooks/auth";
-import { set } from "react-hook-form";
+// import { set } from "react-hook-form";
 import auth from '../firebase';
 // import auth from '../firebase.init';
 // import auth from '../../firebase.init';
@@ -35,7 +35,7 @@ const useUser = () =>{
     const emailId = user?.email;
     // console.log(user?.email)
     const testPerson = users?.filter(user => emailId === user?.email)
-    console.log(testPerson)
+    // console.log(testPerson)
     // setPerson(testPerson)
     // const testPerson = users?.map(u => {
     //     if(u?.email == user?.email)
@@ -46,7 +46,7 @@ const useUser = () =>{
     // const testPerson2 = testPerson.filter()
     // console.log(person);
     const person = testPerson[0];
-    console.log(person)
+    // console.log(person)
     
 
     return [person, setUsers];
