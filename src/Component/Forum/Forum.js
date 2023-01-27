@@ -53,17 +53,17 @@ const Forum = () => {
 
 
                 {/* user comment  */}
-                <div class="chat chat-start">
+                {/* <div class="chat chat-start"> */}
                     {/* <div class="chat-image avatar">
                         <div class="w-10 rounded-full">
                             <img alt='' src="https://placeimg.com/192/192/people" />
                         </div>
                     </div> */}
-                    <div className='user-comment chat-bubble'>
+                    {/* <div className='user-comment chat-bubble'>
                         <p><b>Niloy</b></p>
                         <p>It was said that you would, destroy the Sith, not join them.</p>
                     </div>
-                </div>
+                </div> */}
 
             {
                 messages?.map( message => 
