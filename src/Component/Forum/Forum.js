@@ -17,8 +17,9 @@ const Forum = () => {
     const handleSubmit = (e) => {
         
         const comment = e.target.comment.value;
-        const peopleNew =  user? user.email : "unknown person" ;
-        const message = { comment, peopleNew };
+        const peopleNew =  user?.email ;
+        
+        const message = { comment, people };
         // console.log(comment);
 
         const url = `http://localhost:5000/messages`;

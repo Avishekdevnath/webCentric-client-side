@@ -195,7 +195,6 @@ const Services = () => {
                                                    
                                                     <div className="card-actions justify-start">
                                                         <div className="badge badge-outline">Phone: {Phone}</div>
-                                                        {/* <div className="badge badge-outline">Likes</div> */}
                                                     </div>
                                                 </div>
                                             </div>

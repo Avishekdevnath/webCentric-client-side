@@ -9,8 +9,9 @@ import useSpecialTour from '../../hooks/useSpecialTour';
 const SpecialOffer = () => {
 
     const [tours, setTours] = useSpecialTour();
-   
+    console.log(tours)
 const {id, place, image, details} = tours || {} ;
+console.log(image)
 // console.log(place, image, id);
 
     const calculateTimeLeft = () => {
