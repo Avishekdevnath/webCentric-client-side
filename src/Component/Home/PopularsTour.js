@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Carousel from 'react-multi-carousel';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import usePopularTours from '../../hooks/usePopularTours';
 import useSpecialTourDetails from '../../hooks/useSpecialToursDetails';
 
@@ -11,7 +11,11 @@ const PopularsTour = () => {
 
     const [popularTours, setPopularTours] = usePopularTours();
 
-
+    const navigate = useNavigate()
+    const explorePlace =(id) =>{
+        navigate(`/explorePlace/${id}`)
+        console.log(id);
+    }
 
     // console.log(popularTours);
 
@@ -45,7 +49,8 @@ const PopularsTour = () => {
                                     <div class="card-actions justify-end">
                                         {/* <div class="badge badge-outline">Date</div> */}
                                         {/* <div class="badge badge-outline">Likes</div> */}
-                                        <Link  to="" className='btn '>Explore...</Link>
+                                        {/* <Link  to="" className='btn '>Explore...</Link> */}
+                                        <button onClick={()=>explorePlace(e?._id)} class="btn btn-md">Explore...</button>
                                         {/* /explorePlace */}
                                     </div>
                                 </div>
@@ -54,22 +59,7 @@ const PopularsTour = () => {
                     })
                 }
 
-                {/*           
-                <div class="bg-[#E8F0FE]  cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
-                    <figure><img className='w-full h-60' src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
-                    <div class="card-body">
-                        <p className='text-blue-500'>Category</p>
-                        <h2 class="card-title">
-                            Title
-                            <div class="badge badge-secondary">NEW</div>
-                        </h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div class="card-actions justify-start">
-                            <div class="badge badge-outline">Date</div>
-                            <div class="badge badge-outline">Likes</div>
-                        </div>
-                    </div>
-                </div> */}
+             
             </div>
 
 

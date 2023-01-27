@@ -22,6 +22,7 @@ import BookedHotel from './Component/Dashboard/BookedHotel';
 import Registration from './Component/Home/Registration';
 import SpecialTours from './Component/Dashboard/SpecialTours';
 import ExplorePlace from './Component/Home/ExplorePlace';
+import BookingTopPlaces from './Component/Home/BookingTopPlaces';
 
 function App() {
   
@@ -30,7 +31,8 @@ function App() {
   const router = createBrowserRouter([
     {path:"/" , element: <Home></Home>},
     {path:"home" , element: <Home></Home>},
-    {path:"explorePlace" , element: <ExplorePlace></ExplorePlace>},
+    {path:"explorePlace/:id" , element: <ExplorePlace></ExplorePlace>},
+    {path:"bookingTopPlaces" , element: <BookingTopPlaces></BookingTopPlaces>},
     {path:"contact" , element: <Contact></Contact>},
     {path:"forum" , element: <Forum></Forum>},
     {path:"about" , element: <About></About>},
