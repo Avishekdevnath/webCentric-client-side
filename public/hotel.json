@@ -8,13 +8,12 @@
         "id": 1,
         "image": "",
         "Hotel_name": "Aronnok & Lakeshore Holiday Resort",
-        "image":"https://www.lrbtravelteam.com/wp-content/uploads/2020/10/Aronnok-Holiday-Resort.png",
+        "image": "https://www.lrbtravelteam.com/wp-content/uploads/2020/10/Aronnok-Holiday-Resort.png",
         "Price_Range": "1000 - 5000",
         "Rooms": 30,
         "Rooms_Available": 20,
         "Address": "Ragamati cantenment,Ragamati Bangladesh",
-        "Get_Direction":"https://www.google.com/maps/dir/Aronnak+Holiday+Resort,+M594%2BC6J,+N+106/Rangamati/@22.6609781,92.1584181,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3752b591cfc4f893:0x45dd270ab2dd8fe7!2m2!1d92.1555155!2d22.6685972!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
-
+        "Get_Direction": "https://www.google.com/maps/dir/Aronnak+Holiday+Resort,+M594%2BC6J,+N+106/Rangamati/@22.6609781,92.1584181,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3752b591cfc4f893:0x45dd270ab2dd8fe7!2m2!1d92.1555155!2d22.6685972!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
       }
     ],
     "Transports": [
@@ -26,48 +25,56 @@
         "NonAc_Price": "850Tk",
         "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
         "Total_Seat": "50",
-        "phone":"0188177111",
+        "phone": "0188177111",
         "Available_Seat": "10",
         "Avaiable_Time": [
-        "1/02/2023 : 5–10PM", 
-        "1/02/2023:5–10PM", 
-        "1/02/2023: 5–10PM"
-    ]
+          "1/02/2023 : 5–10PM",
+          "1/02/2023:5–10PM",
+          "1/02/2023: 5–10PM"
+        ]
       },
-      {
-
-      },
-      {
-
-      }
+      {},
+      {}
     ],
     "Police_Stations": [
       {
         "Name": "Kotwali police station",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUsDSYsXSFe6JFQeQMyR2SaqqBcL-KumrY6jyNtwnfAQgDiaYxLPB7l4EH3mPQO9R83Q&usqp=CAU",
-        "Phone":"035162060",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUsDSYsXSFe6JFQeQMyR2SaqqBcL-KumrY6jyNtwnfAQgDiaYxLPB7l4EH3mPQO9R83Q&usqp=CAU",
+        "Phone": "035162060",
         "Address": "Rangamati,Bangladesh",
-        "Get Direction":"https://www.google.com/maps/dir//Rangamati/@22.6533046,92.1088177,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
-
+        "Get Direction": "https://www.google.com/maps/dir//Rangamati/@22.6533046,92.1088177,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
       },
       {}
     ],
-    "Hospitals": [{
-        "Name":" Rangamati Government Hospital",
-        "image":"https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/05/06/ranga_pic.jpg",
-       "Phone":"01930541300",
-        "Address":"Rangamati",
-        "Get_Direction":"https://www.google.com/maps/search/Rangamati+Government+Hospital+address/@23.4445999,91.6813873,9z/data=!3m1!4b1"
-
-    }, {}],
-    "Torist_Spots": [{
-        "Name":"Powel Park",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkl6He0mx_xQy1TbMlGU5nBa-3VfoEuLndCDsM3ajtG3cXw-cJNZYqp211K8SCfphY3Y&usqp=CAU",
-    "Address":"Rangamati",
-    "Get_Direction":"https://www.google.com/maps/place/Polwel+Park/@22.6411599,92.1977162,17z/data=!3m1!4b1!4m5!3m4!1s0x3752b58c9bcbfe81:0x13a4de90953f35cb!8m2!3d22.6411599!4d92.199904",
-    "Open_Time":"9Am",
-    "Close_Time":"9pm"
-    }, {}]
+    "Hospitals": [
+      {
+        "Name": " Rangamati Government Hospital",
+        "image": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/05/06/ranga_pic.jpg",
+        "Phone": "01930541300",
+        "Address": "Rangamati",
+        "Get_Direction": "https://www.google.com/maps/search/Rangamati+Government+Hospital+address/@23.4445999,91.6813873,9z/data=!3m1!4b1"
+      },
+      {}
+    ],
+    "Torist_Spots": [
+      {
+        "Name": "Powel Park",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkl6He0mx_xQy1TbMlGU5nBa-3VfoEuLndCDsM3ajtG3cXw-cJNZYqp211K8SCfphY3Y&usqp=CAU",
+        "Address": "Rangamati",
+        "Get_Direction": "https://www.google.com/maps/place/Polwel+Park/@22.6411599,92.1977162,17z/data=!3m1!4b1!4m5!3m4!1s0x3752b58c9bcbfe81:0x13a4de90953f35cb!8m2!3d22.6411599!4d92.199904",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      },
+      {}
+    ],
+    "Fun_Activity": [
+      {
+        "Name": "Kayeking",
+        "iamge": "https://prod-media-eng.dhakatribune.com/uploads/2020/01/whatsapp-image-2020-01-04-at-21-02-1578162234213.jpg",
+        "Price": "500-2000"
+      },
+      {}
+    ]
   },
 
 
@@ -87,43 +94,64 @@
         "Address": "Bandarban"
       }
     ],
-    "Transports": [{"id": 1,
+    "Transports": [
+      {
+        "id": 1,
         "image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
         "Name": "Shamoli Nr",
         "Ac_Price": "1800Tk",
         "NonAc_Price": "850Tk",
         "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
         "Total_Seat": "50",
-        "phone":"0188177111",
+        "phone": "0188177111",
         "Available_Seat": "10",
         "Avaiable_Time": [
-        "1/02/2023 : 5–10PM", 
-        "1/02/2023:5–10PM", 
-        "1/02/2023: 5–10PM"]
-
-    }, {}],
-    "Police_Stations": [{
-      "Name": "Bandarban Sadar police station",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
-      "Phone": "01713373267",
-      "Address": "Main Road,Bandarban Sadar",
-      "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-    }, {}],
-    "Hospitals": [{
-      "Name": " Bandarban Sadar Hospital",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
-      "Phone": "019730324765",
-      "Address": "Bandarban",
-      "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-    }, {}],
-    "Torist_Spots": [{
-      "Name": "Nilgiri",
-      "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
-      "Address": "Bandarban",
-      "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
-      "Open_Time": "9Am",
-      "Close_Time": "9pm"
-    }, {}]
+          "1/02/2023 : 5–10PM",
+          "1/02/2023:5–10PM",
+          "1/02/2023: 5–10PM"
+        ]
+      },
+      {}
+    ],
+    "Police_Stations": [
+      {
+        "Name": "Bandarban Sadar police station",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
+        "Phone": "01713373267",
+        "Address": "Main Road,Bandarban Sadar",
+        "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
+      },
+      {}
+    ],
+    "Hospitals": [
+      {
+        "Name": " Bandarban Sadar Hospital",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
+        "Phone": "019730324765",
+        "Address": "Bandarban",
+        "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
+      },
+      {}
+    ],
+    "Torist_Spots": [
+      {
+        "Name": "Nilgiri",
+        "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
+        "Address": "Bandarban",
+        "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      },
+      {}
+    ],
+    "Fun_Activity": [
+      {
+        "Name": "Cloud Camp",
+        "iamge": "https://thumbs.dreamstime.com/b/kaptai-lake-camping-site-229471795.jpg",
+        "Price": "2000-4000"
+      },
+      {}
+    ]
   },
   
 
@@ -179,7 +207,15 @@
       "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
       "Open_Time": "9Am",
       "Close_Time": "9pm"
-    }, {}]
+    }, {}],
+    "Fun_Activity":[
+      {
+        "Name":"Parasalling",
+        "iamge":"https://c8.alamy.com/zooms/9/69792d0eb1444570ba90f9041ea4f610/kmg0wt.jpg",
+        "Price":"5000"
+
+      },{}
+    ]
   },
 
 
@@ -246,6 +282,14 @@
         "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
         "Open_Time": "9Am",
         "Close_Time": "9pm"
+      },
+      {}
+    ],
+    "Fun_Activity": [
+      {
+        "Name": "Boat Ride",
+        "iamge": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/24/7b/caption.jpg?w=1200&h=-1&s=1",
+        "Price": "1000-2000"
       },
       {}
     ]
@@ -326,6 +370,16 @@
         "Close_Time": "9pm"
       },
       {}
+    ],
+    "Fun_Activity": [
+      {
+        "Name": "Boat Ride",
+        "iamge": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/24/7b/caption.jpg?w=1200&h=-1&s=1",
+        "Price": "1000-2000"
+      },
+      {
+
+      }
     ]
   },
 
@@ -403,6 +457,14 @@
         "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
         "Open_Time": "9Am",
         "Close_Time": "9pm"
+      },
+      {}
+    ],
+    "Fun_Activity": [
+      {
+        "Name": "Boat Ride",
+        "iamge": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/24/7b/caption.jpg?w=1200&h=-1&s=1",
+        "Price": "1000-2000"
       },
       {}
     ]
