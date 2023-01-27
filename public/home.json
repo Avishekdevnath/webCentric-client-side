@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "place": "Rangamati",
+        "image": "https://live.staticflickr.com/65535/48530509381_c7eb7d3d24_b.jpg ",
+        "Hotel_name": "Aronnok & Lakeshore Holiday Resort",
+        "Hotel_image": "https://www.lrbtravelteam.com/wp-content/uploads/2020/10/Aronnok-Holiday-Resort.png",
+        "Hotel_Price_Range": "1000 - 5000",
+        "transport_image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
+        "transport_Name": "Shamoli Nr"
+    },
+    {
+        "id": 2,
+        "place": "Bandarban",
+        "image": "https://i.pinimg.com/originals/3b/90/02/3b90026e4d5a8a1650dbd7dbb932426d.jpg",
+        "Hotel_name": "Hill View",
+        "Hotel_image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
+        "Hotel_Price_Range": "1000 - 5000",
+        "transport_image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
+        "transport_Name": "Shamoli Nr"
+    },
+    {
+        "id": 3,
+        "place": "Cox's Bazar",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e2/f8/43/longest-sea-beach-in.jpg?w=700&h=-1&s=1",
+        "Hotel_name": "Hill View",
+        "Hotel_image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
+        "Hotel_Price_Range": "1000 - 5000",
+        "transport_image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
+        "transport_Name": "Shamoli Nr"
+    },
+    {
+        "id": 4,
+        "place": "Chattogram",
+        "image": "https://i.pinimg.com/originals/3b/90/02/3b90026e4d5a8a1650dbd7dbb932426d.jpg",
+        "Hotel_name": "Hill View",
+        "Hotel_image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
+        "Hotel_Price_Range": "1000 - 5000",
+        "transport_image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
+        "transport_Name": "Shamoli Nr"
+    }
+]

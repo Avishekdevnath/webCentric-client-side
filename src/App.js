@@ -21,6 +21,7 @@ import AddHotel from './Component/Dashboard/AddHotel';
 import BookedHotel from './Component/Dashboard/BookedHotel';
 import Registration from './Component/Home/Registration';
 import SpecialTours from './Component/Dashboard/SpecialTours';
+import ExplorePlace from './Component/Home/ExplorePlace';
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
   const router = createBrowserRouter([
     {path:"/" , element: <Home></Home>},
     {path:"home" , element: <Home></Home>},
+    {path:"explorePlace" , element: <ExplorePlace></ExplorePlace>},
     {path:"contact" , element: <Contact></Contact>},
     {path:"forum" , element: <Forum></Forum>},
     {path:"about" , element: <About></About>},

@@ -15,7 +15,20 @@
         "Address": "Ragamati cantenment,Ragamati Bangladesh",
         "Get_Direction":"https://www.google.com/maps/dir/Aronnak+Holiday+Resort,+M594%2BC6J,+N+106/Rangamati/@22.6609781,92.1584181,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3752b591cfc4f893:0x45dd270ab2dd8fe7!2m2!1d92.1555155!2d22.6685972!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
 
+      },
+      {
+        "id": 2,
+        "image": "",
+        "Hotel_name": "Hotel Nadisa International",
+        "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/15/5a/f3/hotel-nadisa-from-out.jpg?w=1200&h=-1&s=1",
+        "Price_Range": "1000 - 5000",
+        "Rooms": 30,
+        "Rooms_Available": 20,
+        "Address": "Ragamati cantenment,Ragamati Bangladesh",
+        "Get_Direction":"https://www.google.com/maps/dir/Aronnak+Holiday+Resort,+M594%2BC6J,+N+106/Rangamati/@22.6609781,92.1584181,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x3752b591cfc4f893:0x45dd270ab2dd8fe7!2m2!1d92.1555155!2d22.6685972!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
+
       }
+
     ],
     "Transports": [
       {
@@ -33,13 +46,8 @@
         "1/02/2023:5–10PM", 
         "1/02/2023: 5–10PM"
     ]
-      },
-      {
-
-      },
-      {
-
       }
+      
     ],
     "Police_Stations": [
       {
@@ -47,10 +55,9 @@
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUsDSYsXSFe6JFQeQMyR2SaqqBcL-KumrY6jyNtwnfAQgDiaYxLPB7l4EH3mPQO9R83Q&usqp=CAU",
         "Phone":"035162060",
         "Address": "Rangamati,Bangladesh",
-        "Get Direction":"https://www.google.com/maps/dir//Rangamati/@22.6533046,92.1088177,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
+        "Get_Direction":"https://www.google.com/maps/dir//Rangamati/@22.6533046,92.1088177,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3752b5a7b4c418f9:0xa63c343bd4a12112!2m2!1d92.1788581!2d22.6533198"
 
-      },
-      {}
+      }
     ],
     "Hospitals": [{
         "Name":" Rangamati Government Hospital",
@@ -59,7 +66,7 @@
         "Address":"Rangamati",
         "Get_Direction":"https://www.google.com/maps/search/Rangamati+Government+Hospital+address/@23.4445999,91.6813873,9z/data=!3m1!4b1"
 
-    }, {}],
+    }],
     "Torist_Spots": [{
         "Name":"Powel Park",
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkl6He0mx_xQy1TbMlGU5nBa-3VfoEuLndCDsM3ajtG3cXw-cJNZYqp211K8SCfphY3Y&usqp=CAU",
@@ -67,7 +74,7 @@
     "Get_Direction":"https://www.google.com/maps/place/Polwel+Park/@22.6411599,92.1977162,17z/data=!3m1!4b1!4m5!3m4!1s0x3752b58c9bcbfe81:0x13a4de90953f35cb!8m2!3d22.6411599!4d92.199904",
     "Open_Time":"9Am",
     "Close_Time":"9pm"
-    }, {}]
+    }]
   },
 
 
@@ -78,9 +85,18 @@
     "image": "https://i.pinimg.com/originals/3b/90/02/3b90026e4d5a8a1650dbd7dbb932426d.jpg",
     "Hotels": [
       {
-        "id": 2,
+        "id": 1,
         "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
         "Hotel_name": "Hill View",
+        "Price_Range": "1000 - 5000",
+        "Rooms": 30,
+        "Rooms_Available": 20,
+        "Address": "Bandarban"
+      },
+      {
+        "id": 2,
+        "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
+        "Hotel_name": "Sairu Hill Resorts",
         "Price_Range": "1000 - 5000",
         "Rooms": 30,
         "Rooms_Available": 20,
@@ -101,21 +117,21 @@
         "1/02/2023:5–10PM", 
         "1/02/2023: 5–10PM"]
 
-    }, {}],
+    }],
     "Police_Stations": [{
       "Name": "Bandarban Sadar police station",
       "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
       "Phone": "01713373267",
       "Address": "Main Road,Bandarban Sadar",
       "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-    }, {}],
+    }],
     "Hospitals": [{
       "Name": " Bandarban Sadar Hospital",
       "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
       "Phone": "019730324765",
       "Address": "Bandarban",
       "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-    }, {}],
+    }],
     "Torist_Spots": [{
       "Name": "Nilgiri",
       "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
@@ -123,7 +139,7 @@
       "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
       "Open_Time": "9Am",
       "Close_Time": "9pm"
-    }, {}]
+    }]
   },
   
 
@@ -134,9 +150,18 @@
     "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e2/f8/43/longest-sea-beach-in.jpg?w=700&h=-1&s=1",
     "Hotels": [
       {
-        "id": 3,
+        "id": 1,
         "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
         "Hotel_name": "Hill View",
+        "Price_Range": "1000 - 5000",
+        "Rooms": 30,
+        "Rooms_Available": 20,
+        "Address": "Bandarban"
+      },
+      {
+        "id": 2,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b0/a5/ab/photo0jpg.jpg?w=1200&h=-1&s=1",
+        "Hotel_name": "Hotel Sea Crown",
         "Price_Range": "1000 - 5000",
         "Rooms": 30,
         "Rooms_Available": 20,
@@ -157,21 +182,21 @@
         "1/02/2023:5–10PM", 
         "1/02/2023: 5–10PM"]
 
-    }, {}],
+    }],
     "Police_Stations": [{
       "Name": "Bandarban Sadar police station",
       "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
       "Phone": "01713373267",
       "Address": "Main Road,Bandarban Sadar",
       "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-    }, {}],
+    }],
     "Hospitals": [{
       "Name": " Bandarban Sadar Hospital",
       "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
       "Phone": "019730324765",
       "Address": "Bandarban",
       "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-    }, {}],
+    }],
     "Torist_Spots": [{
       "Name": "Nilgiri",
       "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
@@ -179,232 +204,7 @@
       "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
       "Open_Time": "9Am",
       "Close_Time": "9pm"
-    }, {}]
-  },
-
-
-
-  {
-    "id": 4,
-    "place": "Jafhlong",
-    "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Jaflong-Travel.jpg",
-    "Hotels": [
-      {
-        "id": 4,
-        "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
-        "Hotel_name": "Hill View",
-        "Price_Range": "1000 - 5000",
-        "Rooms": 30,
-        "Rooms_Available": 20,
-        "Address": "Bandarban"
-      }
-    ],
-    "Transports": [
-      {
-        "id": 4,
-        "image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
-        "Name": "Shamoli Nr",
-        "Ac_Price": "1800Tk",
-        "NonAc_Price": "850Tk",
-        "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
-        "Total_Seat": "50",
-        "phone": "0188177111",
-        "Available_Seat": "10",
-        "Avaiable_Time": [
-          "1/02/2023 : 5–10PM",
-          "1/02/2023:5–10PM",
-          "1/02/2023: 5–10PM"
-        ]
-      },
-      {}
-    ],
-    "Police_Stations": [
-      {
-        "Name": "Bandarban Sadar police station",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
-        "Phone": "01713373267",
-        "Address": "Main Road,Bandarban Sadar",
-        "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-      },
-      {}
-    ],
-    "Hospitals": [
-      {
-        "Name": " Bandarban Sadar Hospital",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
-        "Phone": "019730324765",
-        "Address": "Bandarban",
-        "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-      },
-      {}
-    ],
-    "Torist_Spots": [
-      {
-        "Name": "Nilgiri",
-        "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
-        "Address": "Bandarban",
-        "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
-        "Open_Time": "9Am",
-        "Close_Time": "9pm"
-      },
-      {}
-    ]
-  },
-
-
-  
-
-
-
-
-
-
-
-
-
-  {
-    "id": 5,
-    "place": "Sreemongol",
-    "image": "https://mediaim.expedia.com/destination/1/d715f1f8b2374ab78f35586b91472f30.jpg",
-    "Hotels": [
-      {
-        "id": 5,
-        "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
-        "Hotel_name": "Hill View",
-        "Price_Range": "1000 - 5000",
-        "Rooms": 30,
-        "Rooms_Available": 20,
-        "Address": "Bandarban"
-      }
-    ],
-    "Transports": [
-      {
-        "id": 5,
-        "image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
-        "Name": "Shamoli Nr",
-        "Ac_Price": "1800Tk",
-        "NonAc_Price": "850Tk",
-        "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
-        "Total_Seat": "50",
-        "phone": "0188177111",
-        "Available_Seat": "10",
-        "Avaiable_Time": [
-          "1/02/2023 : 5–10PM",
-          "1/02/2023:5–10PM",
-          "1/02/2023: 5–10PM"
-        ]
-      },
-      {}
-    ],
-    "Police_Stations": [
-      {
-        "Name": "Bandarban Sadar police station",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
-        "Phone": "01713373267",
-        "Address": "Main Road,Bandarban Sadar",
-        "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-      },
-      {}
-    ],
-    "Hospitals": [
-      {
-        "Name": " Bandarban Sadar Hospital",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
-        "Phone": "019730324765",
-        "Address": "Bandarban",
-        "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-      },
-      {}
-    ],
-    "Torist_Spots": [
-      {
-        "Name": "Nilgiri",
-        "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
-        "Address": "Bandarban",
-        "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
-        "Open_Time": "9Am",
-        "Close_Time": "9pm"
-      },
-      {}
-    ]
-  },
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  {
-    "id": 6,
-    "place": "Tangaur Haor",
-    "image": "https://porzoton.com/wp-content/uploads/2020/09/Tanguar-Haor.jpg",
-    "Hotels": [
-      {
-        "id": 6,
-        "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/cf/14/2f/front-view-of-hotel-hill.jpg",
-        "Hotel_name": "Hill View",
-        "Price_Range": "1000 - 5000",
-        "Rooms": 30,
-        "Rooms_Available": 20,
-        "Address": "Bandarban"
-      }
-    ],
-    "Transports": [
-      {
-        "id": 6,
-        "image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
-        "Name": "Shamoli Nr",
-        "Ac_Price": "1800Tk",
-        "NonAc_Price": "850Tk",
-        "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
-        "Total_Seat": "50",
-        "phone": "0188177111",
-        "Available_Seat": "10",
-        "Avaiable_Time": [
-          "1/02/2023 : 5–10PM",
-          "1/02/2023:5–10PM",
-          "1/02/2023: 5–10PM"
-        ]
-      },
-      {}
-    ],
-    "Police_Stations": [
-      {
-        "Name": "Bandarban Sadar police station",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
-        "Phone": "01713373267",
-        "Address": "Main Road,Bandarban Sadar",
-        "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-      },
-      {}
-    ],
-    "Hospitals": [
-      {
-        "Name": " Bandarban Sadar Hospital",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
-        "Phone": "019730324765",
-        "Address": "Bandarban",
-        "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-      },
-      {}
-    ],
-    "Torist_Spots": [
-      {
-        "Name": "Nilgiri",
-        "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
-        "Address": "Bandarban",
-        "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
-        "Open_Time": "9Am",
-        "Close_Time": "9pm"
-      },
-      {}
-    ]
+    }]
   }
 ]
+

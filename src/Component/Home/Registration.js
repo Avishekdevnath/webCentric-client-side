@@ -36,7 +36,7 @@ const Registration = () => {
             .then(res => res.json())
             .then(data => {
                 // console.log(data)
-                toast("আপনার ডাটা গৃহীত হয়েছে");
+                // toast("আপনার ডাটা গৃহীত হয়েছে");
                 // toast("Registration completed")
                 document.getElementById("myForm").reset();
             })

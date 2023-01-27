@@ -75,7 +75,7 @@ const Services = () => {
         // console.log(e.target.value)
         setDistrict(e.target.value)
     }
-    console.log(touristspots)
+    // console.log(touristspots)
     return (
         <div>
             <Navbar></Navbar>
@@ -98,12 +98,12 @@ const Services = () => {
 
                                     <select onChange={e => { handleDistrict(e) }} name="dis" id="district" className="select select-bordered w-32 md:w-40 lg:w-80">
                                         <option disabled selected>Select District</option>
-                                        <option value="dhaka">Dhaka</option>
-                                        <option value="chattogram">Chattogram</option>
-                                        <option value="sylhet">Sylhet</option>
+                                        {/* <option value="dhaka">Dhaka</option> */}
+                                        {/* <option value="chattogram">Chattogram</option> */}
+                                        {/* <option value="sylhet">Sylhet</option> */}
                                         <option value="cox's bazar">Cox's bazar</option>
                                         <option value="rangamati">Rangamati</option>
-                                        <option value="saint martin">Saint martin</option>
+                                        {/* <option value="saint martin">Saint martin</option> */}
                                         <option value="bandarban">Bandarban</option>
                                     </select>
 
@@ -131,86 +131,215 @@ const Services = () => {
                     <h1 className='text-center font-bold text-4xl text-black my-10 '>   Your Selected District </h1>
                     <div className="divider mb-8 mx-40 "></div>
                     <div class="">
-                        <img src={place.image} class="mx-auto object-cover h-48 w-96 " />
+                        <img alt="" src={place.image} class="mx-auto object-cover h-48 w-96 " />
+                        <h1 className=' text-3xl text-black text-center'>{place.place}</h1>
                     </div>
-                    <h1 className=' text-3xl text-black text-center'>{place.place}</h1>
 
-                    <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
-                        <h1 className='font-bold text-2xl text-black text-start'>Tourist Spots</h1>
-                        <hr className='mb-5' />
 
-                        <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
-                            {place &&
-                                place.Torist_Spots?.map(e => {
-                                    const { Address, Close_Time, Name, Open_Time, image } = e;
-                                    console.log(Address)
-                                    return (
-                                        <div>
-                                            <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
-                                                <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
-                                                <div className="card-body">
-                                                    <p className='text-blue-500 text-2xl text-black text-bold'>{Name}</p>
-                                                    <h2 className="card-title">
-                                                        
-                                                        <div className="text-md text-xl">Address: <span className='text-md'>{Address}</span></div>
-                                                    </h2>
-                                                    
-                                                    <div className="card-actions justify-start">
-                                                        <div className="badge badge-outline">Opening time: {Open_Time}</div>
-                                                        <div className="badge badge-outline">Closing time: {Close_Time} </div>
+                    {/* design purpose  */}
+
+                    {/* <div className='grid grid-col'> */}
+                        <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
+                            <h1 className='font-bold text-2xl text-black text-start'>Tourist Spots</h1>
+                            <hr className='mb-5' />
+
+                            <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
+                                {place &&
+                                    place.Torist_Spots?.map(e => {
+                                        const { Address, Close_Time, Name, Open_Time, image } = e;
+                                        // console.log(Address)
+                                        return (
+                                            <div>
+                                                <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
+                                                    <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
+                                                    <div className="card-body">
+                                                        <p className='text-blue-500 text-2xl text-black text-bold'>{Name}</p>
+                                                        <h2 className="card-title">
+
+                                                            <div className="text-md text-xl">Address: <span className='text-md'>{Address}</span></div>
+                                                        </h2>
+
+                                                        <div className="card-actions justify-start">
+                                                            <div className="badge badge-outline">Opening time: {Open_Time}</div>
+                                                            <div className="badge badge-outline">Closing time: {Close_Time} </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                    )
-                                }
-                                )}
+                                        )
+                                    }
+                                    )}
 
+                            </div>
                         </div>
-                    </div>
-                    <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
-                        <h1 className='font-bold text-2xl text-black text-start'>Hospitals</h1>
-                        <hr className='mb-5' />
+                        <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
+                            <h1 className='font-bold text-2xl text-black text-start'>Hospitals</h1>
+                            <hr className='mb-5' />
 
-                        <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
-                            {place &&
-                                place?.Hospitals?.map(e => {
-                                    const { Address, Get_Direction, Name, Phone, image } = e;
-                                    console.log(Address)
-                                    return (
-                                        <div>
-                                            <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
-                                                <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
-                                                <div className="card-body">
-                                                    <p className='text-blue-500 text-2xl text-black'>{Name}</p>
-                                                    <h2 className="card-title ">
-                                                        
-                                                        <div className="">Address: <span>{Address}</span></div>
-                                                    </h2>
-                                                    <h2 className="card-title">
-                                                        
-                                                        <div className=" ">Map Link: <a href={Get_Direction}></a> Map Link</div>
-                                                    </h2>
-                                                   
-                                                    <div className="card-actions justify-start">
-                                                        <div className="badge badge-outline">Phone: {Phone}</div>
-                                                        {/* <div className="badge badge-outline">Likes</div> */}
+                            <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
+                                {place &&
+                                    place?.Hospitals?.map(e => {
+                                        const { Address, Get_Direction, Name, Phone, image } = e;
+                                        // console.log(Address)
+                                        return (
+                                            <div>
+                                                <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
+                                                    <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
+                                                    <div className="card-body">
+                                                        <p className='text-blue-500 text-2xl text-black'>{Name}</p>
+                                                        <h2 className="card-title ">
+
+                                                            <div className="">Address: <span>{Address}</span></div>
+                                                        </h2>
+                                                        <h2 className="card-title">
+                                                            Map Link: <a target="_blank" href={Get_Direction}> <span className=' text-blue-600'>MAP</span> </a>
+                                                        </h2>
+
+                                                        <div className="card-actions justify-start">
+                                                            <div className="badge badge-outline">Phone: {Phone}</div>
+                                                            {/* <div className="badge badge-outline">Likes</div> */}
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                    )
-                                }
-                                )}
-
+                                        )
+                                    }
+                                    )}
 
 
+
+                            </div>
+                        </div>
+
+
+
+                        <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
+                            <h1 className='font-bold text-2xl text-black text-start'>Hotels</h1>
+                            <hr className='mb-5' />
+
+                            <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
+                                {place &&
+                                    place?.Hotels?.map(e => {
+                                        const { image, Hotel_name, Price_Range, Rooms, Address, Get_Direction } = e;
+                                        console.log(Address)
+                                        return (
+                                            <div>
+                                                <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
+                                                    <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
+                                                    <div className="card-body">
+                                                        <p className='text-blue-500 text-2xl text-black'>{Hotel_name}</p>
+                                                        <h2 className="card-title ">
+
+                                                            <div className="">Address: <span>{Address}</span></div>
+                                                        </h2>
+                                                        <h2 className="card-title">
+                                                            Map Link: <a target="_blank" href={Get_Direction}> <span className=' text-blue-600'>MAP</span> </a>
+                                                        </h2>
+
+                                                        <div className="card-actions justify-start">
+                                                            <div className="badge badge-outline">Phone: {Price_Range}</div>
+                                                            <div className="badge badge-outline">Rooms: {Rooms}</div>
+                                                        </div>
+                                                        <button className='btn btn-md'>Book Now!</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        )
+                                    }
+                                    )}
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
+                            <h1 className='font-bold text-2xl text-black text-start'>Transport</h1>
+                            <hr className='mb-5' />
+
+                            <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
+                                {place &&
+                                    place?.Transports?.map(e => {
+                                        const { image, Name, Ac_Price, NonAc_Price, Available_Seat, Counter_Location, phone, Total_Seat, } = e;
+                                        // console.log(Address)
+                                        return (
+                                            <div>
+                                                <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
+                                                    <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
+                                                    <div className="card-body">
+                                                        <p className='text-blue-500 text-2xl text-black'>{Name}</p>
+                                                        <h2 className="card-title ">
+
+                                                            <div className="">Address: <span>{Counter_Location}</span></div>
+                                                        </h2>
+
+                                                        <div className="card-actions justify-start">
+                                                            <div className="badge badge-outline">Available_Seat {Available_Seat}</div>
+                                                            <div className="badge badge-outline">Total_Seat: {Total_Seat}</div>
+                                                            <div className="badge badge-outline">Ac_Price: {Ac_Price}</div>
+                                                            <div className="badge badge-outline">Ac_Price: {Ac_Price}</div>
+                                                            <div className="badge badge-outline">phone: {phone}</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        )
+                                    }
+                                    )}
+
+
+
+                            </div>
+                        </div>
+
+
+
+                        <div className='mx-10 md:mx-20 lg:mx-40 mb-20'>
+                            <h1 className='font-bold text-2xl text-black text-start'>Police Stations</h1>
+                            <hr className='mb-5' />
+
+                            <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  '>
+                                {place &&
+                                    place?.Police_Stations?.map(e => {
+                                        const { image, Name, Phone, Address, Get_Direction } = e;
+                                        // console.log(Address)
+                                        return (
+                                            <div>
+                                                <div className="bg-[#E8F0FE] cursor-pointer card lg:w-[550px] mr-3 my-3   hover:shadow-lg">
+                                                    <figure><img className='w-full h-60' src={image} alt="Shoes" /></figure>
+                                                    <div className="card-body">
+                                                        <p className='text-blue-500 text-2xl text-black'>{Name}</p>
+                                                        <h2 className="card-title ">
+                                                            <div className="">Address: <span>{Address}</span></div>
+                                                        </h2>
+                                                        <h2 className="card-title">
+                                                            Map Link: <a target="_blank" href={Get_Direction}> <span className=' text-blue-600'>MAP</span> </a>
+                                                        </h2>
+                                                        <div className="badge badge-outline">phone: {Phone}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            // </div>
+
+                                        )
+                                    }
+                                    )}
+
+
+
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                // </div>
 
 
             }

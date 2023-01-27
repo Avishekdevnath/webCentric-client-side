@@ -5,6 +5,7 @@ import { useEffect } from "react";
 const useSpecialTourDetails=()=>{
     const [specialTours, setSpecialTours] = useState();
 
+   
     
 useEffect(() => {
     fetch(`http://localhost:5000/SpecialBookingDetails`)
@@ -15,6 +16,7 @@ useEffect(() => {
 })
 
 
+   
 return  [specialTours, setSpecialTours];
 
 
