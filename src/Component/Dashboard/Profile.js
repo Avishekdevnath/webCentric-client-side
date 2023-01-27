@@ -22,8 +22,8 @@ const Profile = () => {
                         </div>
 
                         <div>
-                            <p>{user.displayName}</p>
-                            <p>{user.email}</p>
+                            <p>{user?.displayName}</p>
+                            <p>{user?.email}</p>
                             <p>N/A</p>
                             <p>N/A</p>
                         </div>

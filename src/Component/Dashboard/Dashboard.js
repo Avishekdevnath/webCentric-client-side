@@ -25,7 +25,7 @@ const Dashboard = () => {
                 <div class="drawer-side ">
 
                     <label for="my-drawer-2" class="drawer-overlay"></label>
-                    <ul class="menu bg-[#E8F0FE] text-black p-4 w-80  text-base-content">
+                    <ul class="menu bg-[#E8F0FE] text-black p-4 w-80  ">
                         
                         
                         
@@ -33,12 +33,12 @@ const Dashboard = () => {
                         <div className='mx-auto '>
                             <div class="avatar ml-4">
                                 <div class="w-24 md:w-32 lg:w-40  mt-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                    <img alt='' src={user.photoURL} />
+                                    <img alt='' src={user?.photoURL} />
                                 </div>
                             </div>
                             <div className=''>
-                                <h1 className='text-center text-xl font-bold text-black '>{user.displayName}</h1>
-                                <p className='text-center  text-black font-bold'>{user.email}</p>
+                                <h1 className='text-center text-xl font-bold text-black '>{user?.displayName}</h1>
+                                <p className='text-center  text-black font-bold'>{user?.email}</p>
                             </div>
                         </div>
 
