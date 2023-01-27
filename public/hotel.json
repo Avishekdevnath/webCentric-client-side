@@ -2,11 +2,12 @@
   {
     "id": 1,
     "place": "Rangamati",
+    "Description":"Rangamati district is a district of natural beauties & cultural heritage. It is located at  N and  E. It is surrounded by Tripura of India at north, Bandarban at south, Mizoram of India at east and Khagrachari & Chittagong at west. It consists of ten Upazilas, two Pourashavas and Forty Nine Unions. Rangamati District has a long history and heritage of very rich culture of tribal & Bengali people. There are Chakma, Murong, Pankho, Marma, Chak, Tripura, Lucai, Kheang, Tanchanga, Khumi known as tribal people besides Bengali. ",
     "image": "https://live.staticflickr.com/65535/48530509381_c7eb7d3d24_b.jpg ",
     "Hotels": [
       {
         "id": 1,
-        "image": "",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRphj8rPxmW7D9k2R5wDgMFT2849OakBvqA55MdO3THRK-j6kUm4QSU56y7dbErj0Eqws&usqp=CAU",
         "Hotel_name": "Aronnok & Lakeshore Holiday Resort",
         "image": "https://www.lrbtravelteam.com/wp-content/uploads/2020/10/Aronnok-Holiday-Resort.png",
         "Price_Range": "1000 - 5000",
@@ -61,11 +62,27 @@
         "Name": "Powel Park",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkl6He0mx_xQy1TbMlGU5nBa-3VfoEuLndCDsM3ajtG3cXw-cJNZYqp211K8SCfphY3Y&usqp=CAU",
         "Address": "Rangamati",
-        "Get_Direction": "https://www.google.com/maps/place/Polwel+Park/@22.6411599,92.1977162,17z/data=!3m1!4b1!4m5!3m4!1s0x3752b58c9bcbfe81:0x13a4de90953f35cb!8m2!3d22.6411599!4d92.199904",
+        "Get_Direction": "https://www.google.com/maps/dir/24.9178773,91.8309139/Polwel+Park,+J5RX%2BFX6,+Rangamati/@23.665534,90.5436412,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3752b58c9bcbfe81:0x13a4de90953f35cb!2m2!1d92.1999049!2d22.6411599?hl=en",
         "Open_Time": "9Am",
         "Close_Time": "9pm"
       },
-      {}
+       {
+         "Name": "Lake View Island",
+         "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fadarbepari.com%2Flakeview-island-kaptai&psig=AOvVaw2eQRP9A-WaeFOzIdJd40Pt&ust=1674892119357000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjh37-h5_wCFQAAAAAdAAAAABAZ",
+         "Address": "Rangamati",
+         "Get_Direction": "https://www.google.com/maps/dir/24.9285008,91.840987/lake+view+island/@23.6533382,90.5560684,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30ad4ead1586e90d:0x7c2479aa828b0aad!2m2!1d92.2247938!2d22.4996225?hl=en",
+         "Open_Time": "9Am",
+         "Close_Time": "9pm"
+       },
+       {
+         "Name": "Rangamati Hanging Bridge ",
+         "image": "https://cdn.pixabay.com/photo/2020/06/14/12/56/suspension-bridge-5297744_960_720.jpg",
+         "Address": "Rangamati",
+         "Get_Direction": "https://www.google.com/maps/dir/24.928743,91.8220829/rangamati+hanging+bridge/@23.6717546,90.5386471,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3752b573327f055f:0xea1f8fb8d4e8dbac!2m2!1d92.1899509!2d22.6276121?hl=en",
+         "Open_Time": "9Am",
+         "Close_Time": "9pm"
+       } 
+      
     ],
     "Fun_Activity": [
       {
@@ -82,6 +99,7 @@
   {
     "id": 2,
     "place": "Bandarban",
+    "Description": "Rangamati district is a district of natural beauties & cultural heritage. It is located at  N and  E. It is surrounded by Tripura of India at north, Bandarban at south, Mizoram of India at east and Khagrachari & Chittagong at west. It consists of ten Upazilas, two Pourashavas and Forty Nine Unions. Rangamati District has a long history and heritage of very rich culture of tribal & Bengali people. There are Chakma, Murong, Pankho, Marma, Chak, Tripura, Lucai, Kheang, Tanchanga, Khumi known as tribal people besides Bengali. ",
     "image": "https://i.pinimg.com/originals/3b/90/02/3b90026e4d5a8a1650dbd7dbb932426d.jpg",
     "Hotels": [
       {
@@ -142,7 +160,22 @@
         "Open_Time": "9Am",
         "Close_Time": "9pm"
       },
-      {}
+      {
+        "Name": "Golden Temple",
+        "image": "https://www.travelmate.com.bd/wp-content/uploads/2021/02/Buddha-Dhatu-Jadi-Bandarban.jpg",
+        "Address": "Bandarban",
+        "Get_Direction": "https://www.google.com/maps/dir/24.928743,91.8220829/Bandarban+Golden+Temple+-+Buddha+Dhatu+Jadi,+Pulpara/@23.5122446,90.5527698,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30ad6a763d18d6f3:0x615a89104c3d1535!2m2!1d92.1975124!2d22.2229449?hl=en",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      },
+      {
+        "Name": "Nafa Khum",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/bd/16/a3/nafa-khum-is-a-waterfall.jpg",
+        "Address": "Bandarban",
+        "Get_Direction": "https://www.google.com/maps/dir/24.928743,91.8220829/Bandarban/@23.5122446,90.5530442,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30ad6a188414e62b:0xa4c3198f81ba90d0!2m2!1d92.2187476!2d22.1935628?hl=en",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      }
     ],
     "Fun_Activity": [
       {
@@ -159,6 +192,7 @@
   {
     "id": 3,
     "place": "Cox's Bazar",
+    "Description": "Rangamati district is a district of natural beauties & cultural heritage. It is located at  N and  E. It is surrounded by Tripura of India at north, Bandarban at south, Mizoram of India at east and Khagrachari & Chittagong at west. It consists of ten Upazilas, two Pourashavas and Forty Nine Unions. Rangamati District has a long history and heritage of very rich culture of tribal & Bengali people. There are Chakma, Murong, Pankho, Marma, Chak, Tripura, Lucai, Kheang, Tanchanga, Khumi known as tribal people besides Bengali. ",
     "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e2/f8/43/longest-sea-beach-in.jpg?w=700&h=-1&s=1",
     "Hotels": [
       {
@@ -171,50 +205,78 @@
         "Address": "Bandarban"
       }
     ],
-    "Transports": [{"id": 3,
+    "Transports": [
+      {
+        "id": 3,
         "image": "https://pbs.twimg.com/media/DYeKf1AUMAAT6Bm.jpg:large",
         "Name": "Shamoli Nr",
         "Ac_Price": "1800Tk",
         "NonAc_Price": "850Tk",
         "Counter_Location": "25/1 B-khiljee Road, Dhaka 1207",
         "Total_Seat": "50",
-        "phone":"0188177111",
+        "phone": "0188177111",
         "Available_Seat": "10",
         "Avaiable_Time": [
-        "1/02/2023 : 5–10PM", 
-        "1/02/2023:5–10PM", 
-        "1/02/2023: 5–10PM"]
-
-    }, {}],
-    "Police_Stations": [{
-      "Name": "Bandarban Sadar police station",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
-      "Phone": "01713373267",
-      "Address": "Main Road,Bandarban Sadar",
-      "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
-    }, {}],
-    "Hospitals": [{
-      "Name": " Bandarban Sadar Hospital",
-      "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
-      "Phone": "019730324765",
-      "Address": "Bandarban",
-      "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
-    }, {}],
-    "Torist_Spots": [{
-      "Name": "Nilgiri",
-      "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
-      "Address": "Bandarban",
-      "Get_Direction": "https://www.google.com/maps/place/Bandarban+-+Thanchi+Rd/@21.9494878,92.3076067,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad79f269ee1ca1:0xe20af8c3ae6b3cb!8m2!3d21.9494878!4d92.3097954?hl=en",
-      "Open_Time": "9Am",
-      "Close_Time": "9pm"
-    }, {}],
-    "Fun_Activity":[
+          "1/02/2023 : 5–10PM",
+          "1/02/2023:5–10PM",
+          "1/02/2023: 5–10PM"
+        ]
+      },
+      {}
+    ],
+    "Police_Stations": [
       {
-        "Name":"Parasalling",
-        "iamge":"https://c8.alamy.com/zooms/9/69792d0eb1444570ba90f9041ea4f610/kmg0wt.jpg",
-        "Price":"5000"
-
-      },{}
+        "Name": "Bandarban Sadar police station",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipNsWxdl0YBPnqC4bBmmoouGdl1h14nS4sqiiK1e=s1360-w1360-h1020",
+        "Phone": "01713373267",
+        "Address": "Main Road,Bandarban Sadar",
+        "Get Direction": "https://www.google.com/maps/search/bandarban+sadar+police+station/@22.1944675,92.2146567,17z/data=!3m1!4b1"
+      },
+      {}
+    ],
+    "Hospitals": [
+      {
+        "Name": " Bandarban Sadar Hospital",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOJ360BbJxNM3_isyBSObUKfl_kjPJY8Ro_pqh2=s1360-w1360-h1020",
+        "Phone": "019730324765",
+        "Address": "Bandarban",
+        "Get_Direction": "https://www.google.com/maps/place/Bandarban+Sadar+Hospital/@22.1895558,92.2243496,17z/data=!3m1!4b1!4m5!3m4!1s0x30ad6988f76db4ff:0x335e79a90a2a7462!8m2!3d22.1895558!4d92.2265383"
+      },
+      {}
+    ],
+    "Torist_Spots": [
+      {
+        "Name": "Himchori",
+        "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
+        "Address": "Cox Bazar",
+        "Get_Direction": "https://www.google.com/maps/dir/24.928743,91.8220829/Himchari+Spring+and+Hill+Track,+924G%2B84H,+Marine+Drive,+Cox's+Bazar/@23.1387689,90.4982981,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30adc5cd6f651ec7:0x566c98bd8cdf6c8!2m2!1d92.0253746!2d21.3558151",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      },
+      {
+        "Name": "Fish World",
+        "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Nilgiri-How-To-Go.jpg",
+        "Address": "Cox Bazar",
+        "Get_Direction": "https://www.google.com/maps/dir/24.928743,91.8220829/WorldFish+Sylhet,+49+Rd+Number+2,+Sylhet/@24.8955955,91.818186,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3751ab9a3233310f:0xd30b6e9102bc2704!2m2!1d91.8884472!2d24.8831934",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      },
+      {
+        "Name": "Cox Bazar beach",
+        "image": "https://porzoton.com/wp-content/uploads/2020/03/Coxbazar-05.jpg",
+        "Address": "Cox Bazar",
+        "Get_Direction": "https://www.google.com/maps/dir/24.928743,91.8220829/Cox's+Bazar+Beach/@23.1692078,90.4982984,8z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x30adc868716d4925:0xcd3ada60adda3a3b!2m2!1d91.9701859!2d21.4284959",
+        "Open_Time": "9Am",
+        "Close_Time": "9pm"
+      }
+    ],
+    "Fun_Activity": [
+      {
+        "Name": "Parasalling",
+        "iamge": "https://c8.alamy.com/zooms/9/69792d0eb1444570ba90f9041ea4f610/kmg0wt.jpg",
+        "Price": "5000"
+      },
+      {}
     ]
   },
 
@@ -222,7 +284,9 @@
 
   {
     "id": 4,
+    "District": "Sylhet",
     "place": "Jafhlong",
+    "Description": "Rangamati district is a district of natural beauties & cultural heritage. It is located at  N and  E. It is surrounded by Tripura of India at north, Bandarban at south, Mizoram of India at east and Khagrachari & Chittagong at west. It consists of ten Upazilas, two Pourashavas and Forty Nine Unions. Rangamati District has a long history and heritage of very rich culture of tribal & Bengali people. There are Chakma, Murong, Pankho, Marma, Chak, Tripura, Lucai, Kheang, Tanchanga, Khumi known as tribal people besides Bengali. ",
     "image": "https://www.travelmate.com.bd/wp-content/uploads/2019/07/Jaflong-Travel.jpg",
     "Hotels": [
       {
@@ -308,7 +372,9 @@
 
   {
     "id": 5,
+    "District": "Sylhet",
     "place": "Sreemongol",
+    "Description": "Rangamati district is a district of natural beauties & cultural heritage. It is located at  N and  E. It is surrounded by Tripura of India at north, Bandarban at south, Mizoram of India at east and Khagrachari & Chittagong at west. It consists of ten Upazilas, two Pourashavas and Forty Nine Unions. Rangamati District has a long history and heritage of very rich culture of tribal & Bengali people. There are Chakma, Murong, Pankho, Marma, Chak, Tripura, Lucai, Kheang, Tanchanga, Khumi known as tribal people besides Bengali. ",
     "image": "https://mediaim.expedia.com/destination/1/d715f1f8b2374ab78f35586b91472f30.jpg",
     "Hotels": [
       {
@@ -318,7 +384,7 @@
         "Price_Range": "1000 - 5000",
         "Rooms": 30,
         "Rooms_Available": 20,
-        "Address": "Bandarban"
+        "Address": "Sreemongol"
       }
     ],
     "Transports": [
@@ -377,9 +443,7 @@
         "iamge": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/60/24/7b/caption.jpg?w=1200&h=-1&s=1",
         "Price": "1000-2000"
       },
-      {
-
-      }
+      {}
     ]
   },
 
@@ -397,7 +461,9 @@
 
   {
     "id": 6,
-    "place": "Tangaur Haor",
+    "District": "Sylhet",
+    "place": "Tangour Haor",
+    "Description": "Rangamati district is a district of natural beauties & cultural heritage. It is located at  N and  E. It is surrounded by Tripura of India at north, Bandarban at south, Mizoram of India at east and Khagrachari & Chittagong at west. It consists of ten Upazilas, two Pourashavas and Forty Nine Unions. Rangamati District has a long history and heritage of very rich culture of tribal & Bengali people. There are Chakma, Murong, Pankho, Marma, Chak, Tripura, Lucai, Kheang, Tanchanga, Khumi known as tribal people besides Bengali. ",
     "image": "https://porzoton.com/wp-content/uploads/2020/09/Tanguar-Haor.jpg",
     "Hotels": [
       {
