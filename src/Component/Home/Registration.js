@@ -20,8 +20,9 @@ const Registration = () => {
         const email = e.target.email.value;
         const bkash = e.target.bkash.value;
         const address = e.target.address.value;
+        const status = "pending"
 
-        const SpecialBookingDetails = { name, email, bkash, address }
+        const SpecialBookingDetails = { name, email, bkash, address, status }
 
         console.log(SpecialBookingDetails)
         const url = `http://localhost:5000/SpecialBookingDetails`;
@@ -46,9 +47,6 @@ const Registration = () => {
     return (
         <div>
             <Navbar></Navbar>
-
-
-
 
             <input type="checkbox" id="my-modal-3" class="modal-toggle" />
             <div class="modal ">

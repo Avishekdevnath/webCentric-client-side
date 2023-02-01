@@ -17,7 +17,8 @@ const Forum = () => {
     const handleSubmit = (e) => {
         
         const comment = e.target.comment.value;
-        // const peopleNew =  user? user.email : "unknown person" ;
+        // const peopleNew =  user?.email ;
+        
         const message = { comment, people };
         // console.log(comment);
 
